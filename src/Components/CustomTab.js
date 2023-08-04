@@ -12,7 +12,7 @@ const CustomTab = () => {
          style={{ gap: "39px",borderRadius:'12px', border:"none" ,display:"flex",justifyContent:"center",paddingBottom:"3rem"}}
          class=" NavHeading nav nav-tabs"
          id="myTab"
-         role="tablist"
+         role="tablist"   
         
        >
          <li class="nav-item" role="presentation">
