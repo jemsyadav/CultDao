@@ -38,18 +38,18 @@ const Home = () => {
     <Carousel>
       <Carousel.Item>
        <div style={{textAlign:'center'}}>
-       <img style={{paddingTop:"2rem"}} src={sdrone} />
+       <img className='First_Home_Patge_Image' style={{paddingTop:"2rem"}} src={sdrone} />
        </div>
-       <h3 style={{color:"white"}}>FULL DISTRIBUTION</h3>
-          <p style={{color:"white"}}>When investee protocols tokens vest, having  <br />dCULT allows users to claim the rewards that <br />are sent to the DAO</p>
+       <h3 className='Heading_Home_Paage' style={{color:"white"}}>FULL DISTRIBUTION</h3>
+          <p className='Paragraph_Home_Page' style={{color:"white"}}>When investee protocols tokens vest, having  <br />dCULT allows users to claim the rewards that <br />are sent to the DAO</p>
         
       </Carousel.Item>
       <Carousel.Item>
       <div style={{textAlign:'center'}}>
       <img style={{paddingTop:"2rem"}} src={sdrtwo} />
       </div>
-      <h3 style={{color:"white"}}>FIGHT AGAINST CENTRALIZATION</h3>
-          <p style={{color:"white"}}>
+      <h3 className='Heading_Home_Paage' style={{color:"white"}}>FIGHT AGAINST CENTRALIZATION</h3>
+          <p className='Paragraph_Home_Page' style={{color:"white"}}>
           We give funding to those who are ready to  <br />
 break the chains and have an idea that can change the world.
           </p>
@@ -59,8 +59,8 @@ break the chains and have an idea that can change the world.
       <div style={{textAlign:'center'}}>
       <img style={{paddingTop:"2rem"}} src={thirdimage} />
       </div>
-      <h3 style={{color:"white"}}>FIGHT AGAINST CENTRALIZATION</h3>
-          <p style={{color:"white"}}>
+      <h3 className='Heading_Home_Paage' style={{color:"white"}}>FIGHT AGAINST CENTRALIZATION</h3>
+          <p className='Paragraph_Home_Page' style={{color:"white"}}>
           We give funding to those who are ready to  <br />
            break the chains and have an idea that can change the world.
           </p>
@@ -68,7 +68,7 @@ break the chains and have an idea that can change the world.
     
     </Carousel>
     <SocialMedia/>
-    </div>
+    </div> 
   
     
     </>

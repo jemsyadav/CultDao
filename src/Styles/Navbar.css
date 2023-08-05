@@ -171,4 +171,19 @@ color: black;
 }
 
 
+@media (max-width:580px){
+ .First_Home_Patge_Image{
+  width: 80%;
+  
+ }
+ .Heading_Home_Paage{
+font-size: 20px;
+padding-top: 3rem;
+ }
+
+ .Paragraph_Home_Page{
+  font-size: 17px;
+ }
+  }
+
   
